@@ -1,0 +1,29 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor.cmd configuration.js",
+    "protractor": "./node_modules/protractor/built/cli.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "7.0.0",
+    "jasmine": "^3.7.0",
+    "typescript": "3.4.3",
+    "@types/jasmine": "2.8.7",
+    "@types/jasminewd2": "2.0.3",
+    "ts-node": "9.1.1",
+    "@types/node": "12.12.2",
+    "@types/mocha": "5.2.7",
+    "protractor-cucumber-framework": "8.0.2",
+    "cucumber": "7.0.0-rc.0",
+    "chai": "4.3.4",
+    "chai-as-promised": "7.1.1"
+  },
+  "devDependencies": {
+    "@types/cucumber": "^7.0.0"
+  }
+}
